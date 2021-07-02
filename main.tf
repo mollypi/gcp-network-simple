@@ -1,4 +1,4 @@
-# [START vpc_auto_create]
+#test destroying
 resource "google_compute_network" "vpc_network" {
   project                 = "devops-318021"
   name                    = "my-auto-mode-network"
