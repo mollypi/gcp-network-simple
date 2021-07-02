@@ -1,6 +1,3 @@
-provider "null" {
-  version = "~> 2.1"
-}
 
 provider "google" {
   version = "~> 3.45.0"
