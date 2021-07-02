@@ -1,11 +1,3 @@
-provider "null" {
-  version = "~> 2.1"
-}
-
-provider "google" {
-  version = "~> 3.45.0"
-}
-
 # [START vpc_auto_create]
 resource "google_compute_network" "vpc_network" {
   project                 = "devops-318021"
